@@ -12,7 +12,7 @@
 }
 
 .sigla {
-  width: 200px;
+  width: 300px;
 }
 
 /* UTILITIES */
@@ -33,6 +33,7 @@ li {
 
 /* NAVBAR STYLING STARTS */
 .navbar {
+height:100px;
 z-index:99;
   display: flex;
   align-items: center;
@@ -176,8 +177,18 @@ background-color:wheat;
 }
 
 .section{
+text-align:center;
     min-height:100vh;
-    padding:50px;
+    padding:100px;
+}
+
+a{
+    display: block;
+    color:black;
+}
+
+.header{
+    font-size:3rem;
 }
 
 .produsele-noastre{
@@ -195,6 +206,10 @@ background-color:wheat;
 .despre{
     background:gray;
     font-size:2em;
+}
+
+.pointerCursor{
+    cursor: pointer;
 }
 
 .bubble {
