@@ -66,7 +66,7 @@ z-index:99;
   position: relative;
 }
 .dropdown {
-  background-color: var(--bg1);
+  background-color: var(--bg2);
   padding: 1em 0;
   position: absolute; /*WITH RESPECT TO PARENT*/
   display: none;
@@ -97,7 +97,7 @@ input[type="checkbox"] {
 /*HAMBURGER MENU*/
 .hamburger {
   display: none;
-  font-size: 24px;
+  font-size: 54px;
   user-select: none;
 }
 /* APPLYING MEDIA QUERIES */
@@ -126,9 +126,9 @@ input[type="checkbox"] {
     display: block;
   }
   .dropdown {
-    left: 50%;
+    /* left: 50%;
     top: 30px;
-    transform: translateX(35%);
+    transform: translateX(35%); */
   }
   .dropdown li:hover {
     background-color: var(--bg1);
@@ -142,20 +142,13 @@ background-color:wheat;
 }
 
 .noi{
+    background-color:#32302f;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction:column;
 }
 
-.acasa{
-    height: 100vh;
-    background-color:teal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column;
-}
 
 .name{
     font-size:6em;
@@ -177,6 +170,7 @@ background-color:wheat;
 }
 
 .section{
+    background-color:#a89984;
 text-align:center;
     min-height:100vh;
     padding:100px;
@@ -192,20 +186,26 @@ a{
 }
 
 .produsele-noastre{
-    background:orange;
 }
 
 .inspiratii{
-    background:blue;
 }
 
 .contact{
-    background:yellow;
 }
 
 .despre{
-    background:gray;
+    background-color:#a89984;
     font-size:2em;
+}
+
+
+.acasa{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
 }
 
 .pointerCursor{
