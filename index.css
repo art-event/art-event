@@ -83,7 +83,7 @@ z-index:99;
   text-align: center;
 }
 .dropdown li:hover {
-  background-color: var(--bg2);
+  background-color: var(--bg1);
 }
 .services:hover .dropdown {
   display: block;
