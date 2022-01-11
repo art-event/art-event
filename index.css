@@ -7,7 +7,8 @@
 
 /* variables */
 :root {
-  --bg1: #1d2021;
+  --bg-page:wheat;
+  --bg1:#1d2021;
   --bg2:#32302f;
 }
 
@@ -27,7 +28,7 @@ body {
 a {
   text-decoration: none;
 }
-li {
+ul {
   list-style: none;
 }
 
@@ -157,7 +158,6 @@ background-color:wheat;
 .motto{
     font-size:2em;
 }
-
 .stdImage{
     width: 500px;
     border:5px black solid;
@@ -170,7 +170,7 @@ background-color:wheat;
 }
 
 .section{
-    background-color:#a89984;
+    background-color:var(--bg-page);
 text-align:center;
     min-height:100vh;
     padding:100px;
@@ -195,7 +195,7 @@ a{
 }
 
 .despre{
-    background-color:#a89984;
+    background-color:var(--bg-page);
     font-size:2em;
 }
 
@@ -271,4 +271,8 @@ flex-direction:column;
 
 .contact{
     font-size:2rem;
+}
+
+.music{
+    display: none;
 }
