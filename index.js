@@ -1,55 +1,38 @@
-const prevBtn = document.getElementById('prev');
-const nextBtn = document.getElementById('next');
-const carousel = document.querySelector('.container .carousel');
+var prev = document.getElementById('prev');
+var next = document.getElementById('next');
+var slider = document.getElementById('slider');
+var total = 0, step = 100;
 
-let size = 1;
-let index = 0;
+prev.addEventListener('click', slide);
+next.addEventListener('click', slide);
 
-nextBtn.addEventListener('click', ()=>{
-    if(index === 2){
-        carousel.style.transform = 'translateX(' + 0 + 'px)';
-        carousel.style.transition = 'none';
-        index = 0;
-        size = 1;
-        return;
+function slide()
+{
+  if(this.getAttribute('id') == 'prev')
+  {
+    if(total == 0)
+    {
+      total = -400;
+      slider.style.left = total + '%';
     }
-    else if(index === 1){
-        carousel.style.transform = 'translateX(' + -1100 + 'px)';
-        carousel.style.transition = '.3s ease';
-        index = 2;
-        size = 2;
-        return;
+    else
+    {
+      total += step;
+      slider.style.left = total + '%';
     }
-    else{
-        carousel.style.transform = 'translateX(' + -550 + 'px)';
-        carousel.style.transition = '.3s ease';
-        index = 1;
-        size = 1;
-        return;
+  }
+  else
+  {
+    if(total == -400)
+    {
+      total = 0;
+      slider.style.left = total;
     }
-});
+    else
+    {
+      total -= step;
+      slider.style.left = total + '%';
+    }
+  }
+}
 
-prevBtn.addEventListener('click', ()=>{
-    if(index === 0){
-        carousel.style.transform = 'translateX(' + -1100 + 'px)';
-        carousel.style.transition = 'none';
-        index = 2;
-        size = 1;
-        return;
-    }
-    else if(index === 1){
-        carousel.style.transform = 'translateX(' + (0) + 'px)';
-        carousel.style.transition = '.3s ease';
-        index = 0;
-        size = 1;
-        return;
-    }
-    else{
-        carousel.style.transform = 'translateX(' + (-550) + 'px)';
-        carousel.style.transition = '.3s ease';
-        index = 1;
-        size = 2;
-            return;
-    }
-
-});
