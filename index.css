@@ -404,6 +404,16 @@ http://stackoverflow.com/a/34696029/383904
 	right: 0;
 }
 
+
+.slide{
+      display: block; 
+  content: " "; 
+  margin-top: -200px; 
+  height: 200px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
 /* NAVIGATION */
 
 .CSSgal .bullets {
