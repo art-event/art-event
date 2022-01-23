@@ -291,6 +291,61 @@ http://stackoverflow.com/a/34696029/383904
 	height: 100%; /* Or set a fixed height */
 }
 
+
+.hidden-text{
+    opacity:0;
+}
+
+.pptImg1{
+    background-image:url("pictures/pptImages/1.png") !important;
+}
+.pptImg2{
+    background-image:url("pictures/pptImages/2.png") !important;
+}
+
+.pptImg3{
+    background-image:url("pictures/pptImages/3.png") !important;
+}
+
+.pptImg4{
+    background-image:url("pictures/pptImages/4.png") !important;
+}
+.pptImg5{
+    background-image:url("pictures/pptImages/5.png") !important;
+}
+.pptImg6{
+    background-image:url("pictures/pptImages/6.png") !important;
+}
+.pptImg7{
+    background-image:url("pictures/pptImages/7.png") !important;
+}
+.pptImg8{
+    background-image:url("pictures/pptImages/8.png") !important;
+}
+
+.pptImg9{
+    background-image:url("pictures/pptImages/9.png") !important;
+}
+.pptImg10{
+    background-image:url("pictures/pptImages/10.png") !important;
+}
+.pptImg11{
+    background-image:url("pictures/pptImages/11.png") !important;
+}
+.pptImg12{
+    background-image:url("pictures/pptImages/12.png") !important;
+}
+.pptImg13{
+    background-image:url("pictures/pptImages/13.png") !important;
+}
+.pptImg14{
+    background-image:url("pictures/pptImages/14.png") !important;
+}
+.pptImg15{
+    background-image:url("pictures/pptImages/14.png") !important;
+}
+
+
 /* SLIDER */
 
 .CSSgal .slider {
@@ -377,41 +432,59 @@ http://stackoverflow.com/a/34696029/383904
 	background: rgba(255, 255, 255, 0.7) !important;
 }
 
-/* NAVIGATION BUTTONS */
-/* ALL: */
 .CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
-/* ACTIVE */
 #s1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1);}
 #s2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1);}
 #s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
 #s4:target ~ .bullets >*:nth-child(4) {background: rgba(255, 255, 255,   1);}
-/* More slides? Add here more rules */
+#s5:target ~ .bullets >*:nth-child(5) {background: rgba(255, 255, 255,   1);}
+#s6:target ~ .bullets >*:nth-child(6) {background: rgba(255, 255, 255,   1);}
+#s7:target ~ .bullets >*:nth-child(7) {background: rgba(255, 255, 255,   1);}
+#s8:target ~ .bullets >*:nth-child(8) {background: rgba(255, 255, 255,   1);}
+#s9:target ~ .bullets >*:nth-child(9) {background: rgba(255, 255, 255,   1);}
+#s10:target ~ .bullets >*:nth-child(10) {background: rgba(255, 255, 255,   1);}
+#s11:target ~ .bullets >*:nth-child(11) {background: rgba(255, 255, 255,   1);}
+#s12:target ~ .bullets >*:nth-child(12) {background: rgba(255, 255, 255,   1);}
+#s13:target ~ .bullets >*:nth-child(13) {background: rgba(255, 255, 255,   1);}
+#s14:target ~ .bullets >*:nth-child(14) {background: rgba(255, 255, 255,   1);}
+#s15:target ~ .bullets >*:nth-child(15) {background: rgba(255, 255, 255,   1);}
 
-/* PREV/NEXT CONTAINERS VISIBILITY */
-/* ALL: */
 .CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
-/* ACTIVE: */
 #s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
 #s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
 #s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
 #s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
-/* More slides? Add here more rules */
-
-/* SLIDER ANIMATION POSITIONS */
+#s5:target ~ .prevNext >*:nth-child(5) {visibility: visible;}
+#s6:target ~ .prevNext >*:nth-child(6) {visibility: visible;}
+#s7:target ~ .prevNext >*:nth-child(7) {visibility: visible;}
+#s8:target ~ .prevNext >*:nth-child(8) {visibility: visible;}
+#s9:target ~ .prevNext >*:nth-child(9) {visibility: visible;}
+#s10:target ~ .prevNext >*:nth-child(10) {visibility: visible;}
+#s11:target ~ .prevNext >*:nth-child(11) {visibility: visible;}
+#s12:target ~ .prevNext >*:nth-child(12) {visibility: visible;}
+#s13:target ~ .prevNext >*:nth-child(13) {visibility: visible;}
+#s14:target ~ .prevNext >*:nth-child(14) {visibility: visible;}
+#s15:target ~ .prevNext >*:nth-child(15) {visibility: visible;}
 
 #s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
 #s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
 #s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
 #s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
-/* More slides? Add here more rules */
-
-
-/* YOU'RE THE DESIGNER! 
-   ____________________
-   All above was mainly to get it working :)
-   CSSgal CUSTOM STYLES / OVERRIDES HERE: */
-
+#s5:target ~ .slider {transform: translateX(-400%); -webkit-transform: translateX(-400%);}
+#s6:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-500%);}
+#s7:target ~ .slider {transform: translateX(-600%); -webkit-transform: translateX(-600%);}
+#s8:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-700%);}
+#s9:target ~ .slider {transform: translateX(-800%); -webkit-transform: translateX(-800%);}
+#s10:target ~ .slider {transform: translateX(-900%); -webkit-transform: translateX(-900%);}
+#s11:target ~ .slider {transform: translateX(-1000%); -webkit-transform: translateX(-1000%);}
+#s12:target ~ .slider {transform: translateX(-1100%); -webkit-transform: translateX(-1100%);}
+#s13:target ~ .slider {transform: translateX(-1200%); -webkit-transform: translateX(-1200%);}
+#s14:target ~ .slider {transform: translateX(-1300%); -webkit-transform: translateX(-1300%);}
+#s15:target ~ .slider {transform: translateX(-1400%); -webkit-transform: translateX(-1400%);}
 .CSSgal{
+height: 400px;
+width:auto;
+/* width:900px; */
 	color: #fff;	
 	text-align: center;
 }
