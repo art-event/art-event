@@ -302,11 +302,9 @@ http://stackoverflow.com/a/34696029/383904
 .pptImg2{
     background-image:url("pictures/pptImages/2.png") !important;
 }
-
 .pptImg3{
     background-image:url("pictures/pptImages/3.png") !important;
 }
-
 .pptImg4{
     background-image:url("pictures/pptImages/4.png") !important;
 }
@@ -322,7 +320,6 @@ http://stackoverflow.com/a/34696029/383904
 .pptImg8{
     background-image:url("pictures/pptImages/8.png") !important;
 }
-
 .pptImg9{
     background-image:url("pictures/pptImages/9.png") !important;
 }
@@ -441,6 +438,144 @@ http://stackoverflow.com/a/34696029/383904
 .CSSgal .bullets > a:hover {
 	background: rgba(255, 255, 255, 0.7) !important;
 }
+
+/* catalog */
+
+
+
+.CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
+#c1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1);}
+#c2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1);}
+#c3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
+#c4:target ~ .bullets >*:nth-child(4) {background: rgba(255, 255, 255,   1);}
+#c5:target ~ .bullets >*:nth-child(5) {background: rgba(255, 255, 255,   1);}
+#c6:target ~ .bullets >*:nth-child(6) {background: rgba(255, 255, 255,   1);}
+#c7:target ~ .bullets >*:nth-child(7) {background: rgba(255, 255, 255,   1);}
+#c8:target ~ .bullets >*:nth-child(8) {background: rgba(255, 255, 255,   1);}
+#c9:target ~ .bullets >*:nth-child(9) {background: rgba(255, 255, 255,   1);}
+#c10:target ~ .bullets >*:nth-child(10) {background: rgba(255, 255, 255,   1);}
+#c11:target ~ .bullets >*:nth-child(11) {background: rgba(255, 255, 255,   1);}
+#c12:target ~ .bullets >*:nth-child(12) {background: rgba(255, 255, 255,   1);}
+#c13:target ~ .bullets >*:nth-child(13) {background: rgba(255, 255, 255,   1);}
+#c14:target ~ .bullets >*:nth-child(14) {background: rgba(255, 255, 255,   1);}
+#c15:target ~ .bullets >*:nth-child(15) {background: rgba(255, 255, 255,   1);}
+#c16:target ~ .bullets >*:nth-child(16) {background: rgba(255, 255, 255,   1);}
+#c17:target ~ .bullets >*:nth-child(17) {background: rgba(255, 255, 255,   1);}
+#c18:target ~ .bullets >*:nth-child(18) {background: rgba(255, 255, 255,   1);}
+#c19:target ~ .bullets >*:nth-child(19) {background: rgba(255, 255, 255,   1);}
+#c20:target ~ .bullets >*:nth-child(20) {background: rgba(255, 255, 255,   1);}
+
+.CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
+#c1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+#c2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+#c3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+#c4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+#c5:target ~ .prevNext >*:nth-child(5) {visibility: visible;}
+#c6:target ~ .prevNext >*:nth-child(6) {visibility: visible;}
+#c7:target ~ .prevNext >*:nth-child(7) {visibility: visible;}
+#c8:target ~ .prevNext >*:nth-child(8) {visibility: visible;}
+#c9:target ~ .prevNext >*:nth-child(9) {visibility: visible;}
+#c10:target ~ .prevNext >*:nth-child(10) {visibility: visible;}
+#c11:target ~ .prevNext >*:nth-child(11) {visibility: visible;}
+#c12:target ~ .prevNext >*:nth-child(12) {visibility: visible;}
+#c13:target ~ .prevNext >*:nth-child(13) {visibility: visible;}
+#c14:target ~ .prevNext >*:nth-child(14) {visibility: visible;}
+#c15:target ~ .prevNext >*:nth-child(15) {visibility: visible;}
+#c16:target ~ .prevNext >*:nth-child(16) {visibility: visible;}
+#c17:target ~ .prevNext >*:nth-child(17) {visibility: visible;}
+#c18:target ~ .prevNext >*:nth-child(18) {visibility: visible;}
+#c19:target ~ .prevNext >*:nth-child(19) {visibility: visible;}
+#c20:target ~ .prevNext >*:nth-child(20) {visibility: visible;}
+
+#c1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#c2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#c3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+#c4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+#c5:target ~ .slider {transform: translateX(-400%); -webkit-transform: translateX(-400%);}
+#c6:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-500%);}
+#c7:target ~ .slider {transform: translateX(-600%); -webkit-transform: translateX(-600%);}
+#c8:target ~ .slider {transform: translateX(-700%); -webkit-transform: translateX(-700%);}
+#c9:target ~ .slider {transform: translateX(-800%); -webkit-transform: translateX(-800%);}
+#c10:target ~ .slider {transform: translateX(-900%); -webkit-transform: translateX(-900%);}
+#c11:target ~ .slider {transform: translateX(-1000%); -webkit-transform: translateX(-1000%);}
+#c12:target ~ .slider {transform: translateX(-1100%); -webkit-transform: translateX(-1100%);}
+#c13:target ~ .slider {transform: translateX(-1200%); -webkit-transform: translateX(-1200%);}
+#c14:target ~ .slider {transform: translateX(-1300%); -webkit-transform: translateX(-1300%);}
+#c15:target ~ .slider {transform: translateX(-1400%); -webkit-transform: translateX(-1400%);}
+#c16:target ~ .slider {transform: translateX(-1500%); -webkit-transform: translateX(-1500%);}
+#c17:target ~ .slider {transform: translateX(-1600%); -webkit-transform: translateX(-1600%);}
+#c18:target ~ .slider {transform: translateX(-1700%); -webkit-transform: translateX(-1700%);}
+#c19:target ~ .slider {transform: translateX(-1800%); -webkit-transform: translateX(-1800%);}
+#c20:target ~ .slider {transform: translateX(-1900%); -webkit-transform: translateX(-1900%);}
+
+
+/* powerpoint */
+
+.catalogImg1{
+    background-image:url("pictures/catalogImages/1.png") !important;
+}
+.catalogImg2{
+    background-image:url("pictures/catalogImages/2.png") !important;
+}
+
+.catalogImg3{
+    background-image:url("pictures/catalogImages/3.png") !important;
+}
+
+.catalogImg4{
+    background-image:url("pictures/catalogImages/4.png") !important;
+}
+.catalogImg5{
+    background-image:url("pictures/catalogImages/5.png") !important;
+}
+.catalogImg6{
+    background-image:url("pictures/catalogImages/6.png") !important;
+}
+.catalogImg7{
+    background-image:url("pictures/catalogImages/7.png") !important;
+}
+.catalogImg8{
+    background-image:url("pictures/catalogImages/8.png") !important;
+}
+.catalogImg9{
+    background-image:url("pictures/catalogImages/9.png") !important;
+}
+.catalogImg10{
+    background-image:url("pictures/catalogImages/10.png") !important;
+}
+.catalogImg11{
+    background-image:url("pictures/catalogImages/11.png") !important;
+}
+.catalogImg12{
+    background-image:url("pictures/catalogImages/12.png") !important;
+}
+.catalogImg13{
+    background-image:url("pictures/catalogImages/13.png") !important;
+}
+.catalogImg14{
+    background-image:url("pictures/catalogImages/14.png") !important;
+}
+.catalogImg15{
+    background-image:url("pictures/catalogImages/15.png") !important;
+}
+.catalogImg16{
+    background-image:url("pictures/catalogImages/16.png") !important;
+}
+.catalogImg17{
+    background-image:url("pictures/catalogImages/17.png") !important;
+}
+.catalogImg18{
+    background-image:url("pictures/catalogImages/18.png") !important;
+}
+.catalogImg19{
+    background-image:url("pictures/catalogImages/19.png") !important;
+}
+.catalogImg20{
+    background-image:url("pictures/catalogImages/20.png") !important;
+}
+
+
+
 
 .CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
 #s1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1);}
