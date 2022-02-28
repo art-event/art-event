@@ -15,3 +15,11 @@ myAudio.onplaying = function() {
 myAudio.onpause = function() {
   isPlaying = false;
 };
+
+
+
+
+// form
+$(':radio').change(function() {
+  console.log('New star rating: ' + this.value);
+});
