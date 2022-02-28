@@ -224,6 +224,7 @@ align-items:center;
 }
 
 .bubble {
+padding:100px;
 	min-height: 250px;
 	width: 40%;
 	min-width: 200px;
@@ -237,7 +238,7 @@ align-items:center;
     display: flex;
   align-items: center;
 justify-self: center;
-padding:55px;
+padding:25px;
 
 flex-direction:column;
   /* justify-content: space-between; */
