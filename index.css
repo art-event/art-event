@@ -177,7 +177,7 @@ background-color:wheat;
     background-color:var(--bg-page);
 /* background-image:url(pictures/fundal) */
 text-align:center;
-    min-height:100vh;
+    /* min-height:100vh; */
     padding:100px;
 }
 
@@ -274,10 +274,10 @@ flex-direction:column;
 }
 
 .inspiratii{
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction:column;
+    flex-direction:column; */
 }
 
 .contact{
@@ -659,6 +659,7 @@ width:auto;
 }
 
 .rating {
+margin-top:40px;
   display: inline-block;
   position: relative;
   height: 50px;
@@ -731,7 +732,7 @@ width:auto;
 
 
 .btn {
-    margin-top:20px;
+margin-top:10px;
   position: relative;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
@@ -739,7 +740,6 @@ width:auto;
   border: none;
   border-radius: 10px;
   background-color: #f1ede5;
-  
   width: 10rem;
   height: 3rem;
   display: flex;
