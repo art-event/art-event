@@ -24,36 +24,38 @@
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         <!-- NAVIGATION MENUS -->
         <div class="menu">
-          <li><a href="en.html">English</a></li>
-          <li><a href="#acasa">Acasa</a></li>
-          <li><a href="#despre">Despre</a></li>
+          <li><a class="conLink" href="en.html">English</a></li>
+          <li><a class="conLink" href="#acasa">Acasa</a></li>
+          <li><a class="conLink" href="#despre">Despre</a></li>
           <li class="services">
             <p class="pointerCursor">Galerie</p>
             <!-- DROPDOWN MENU -->
             <ul class="dropdown">
-              <li><a href="#noi">Noi</a></li>
-              <li><a href="#s1">Powerpoint</a></li>
-              <li><a href="#c1">Catalog</a></li>
-              <li><a href="#produsele-noastre">Produsele noastre</a></li>
-              <li><a href="#inspiratii">Inspiratii</a></li>
-              <li><a href="#pliant">Pliant</a></li>
+              <li><a class="conLink" href="#noi">Rezultate</a></li>
+              <li><a class="conLink" href="#s1">Powerpoint</a></li>
+              <li><a  class="conLink" href="#c1">Catalog</a></li>
+              <li><a class="conLink" href="#produsele-noastre">Produsele noastre</a></li>
+
+              <li><a class="conLink" href="#certificat">Certificat</a></li>
+
+              <li><a class="conLink" href="#pliant">Pliant</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="conLink" href="#contact">Contact</a></li>
         </div>
       </ul>
 
     </nav>
 
-    <div class="content">
-      <div id="acasa" class="acasa section">
+    <div class="content"id="content">
+      <div id="acasa" class="acCon acasa section">
 
       <img class="sigla" src="pictures/sigla.png" alt="sigla" />
         <h1 class="name">Art Event</h1>
         <h4 class="motto">îmbrăcăMintea prin modă!</h4>
       </div>
 
-      <div class="section despre" id="despre">
+      <div class="acCon section despre" id="despre">
         <div class="bubble">
           <p class="">Misiune:</p>
           <ul>
@@ -94,7 +96,8 @@
 
       <div id="noi" class="noi section">
 
-          <h1 class="header">Realizari:</h1>
+<div class="acCon">
+          <h1 class="header">Rezultate:</h1>
         <img
           src="pictures/diploma.png"
           class="stdImage"
@@ -131,10 +134,8 @@
           src="pictures/diplomaAntreprenor"
           class="stdImage"
         />
-        <img
-          src="pictures/inregistrareRoct.png"
-          class="stdImage"
-        />
+</div>
+<div class="acCon">
 
           <h1 class="header">Powerpoint:</h1>
 <div id="powerpoint" class="CSSgal">
@@ -196,9 +197,12 @@
 
 
 </div>
+</div>
 
 
 
+
+<div class="acCon">
 
           <h1 class="header">Catalog:</h1>
 
@@ -273,8 +277,10 @@
 
 
 </div>
+</div>
 
-        <h1 class="header">Noi</h1>
+
+<div class="acCon">
 
         <h1 class="header" id="pliant">Pliant</h1>
         <img
@@ -285,18 +291,20 @@
           src="pictures/pliant2.png"
           class="stdImage"
         />
+</div>
 
-        <img
+<!-- pozele cu noi si diagrama -->
+        <!-- <img
           src="pictures/8af784d0-23a0-4761-95a6-cc405add45ab"
           class="stdImage"
         />
         <img
           src="pictures/WhatsApp Image 2021-10-01 at 16.13.18.jpeg"
           class="diagrama stdImage"
-        />
+        /> -->
       </div>
 
-      <div class="produsele-noastre section" id="produsele-noastre">
+      <div class="acCon produsele-noastre section" id="produsele-noastre">
         <h1 class="header">Produsele noastre</h1>
         <img src="pictures/EtnoStilizat.png" alt="" class="stdImage" />
         <img src="pictures/magicFestival.png" alt="" class="stdImage" />
@@ -306,13 +314,16 @@
         <img src="pictures/etnoStilizat.png" alt="" class="stdImage" />
         <img src="pictures/magicFestival.png" alt="" class="stdImage" />
       </div>
-      <div class="inspiratii section" id="inspiratii">
-        <h1 class="header">Inspiratii</h1>
-        <img src="pictures/insp1" alt="" class="stdImage" />
-        <img src="pictures/insp2" alt="" class="stdImage" />
-        <img src="pictures/insp3" alt="" class="stdImage" />
+      <div class="acCon certificat section" id="certificat">
+
+          <h1 class="header">Certificat Roct:</h1>
+        <img
+          src="pictures/inregistrareRoct.png"
+          class="stdImage"
+        />
+
       </div>
-      <div class="contact section" id="contact">
+      <div class="acCon contact section" id="contact">
         <p>Adresa: Colegiul Economic Costin C. Kiritescu</p>
         <p>Numar telefon: 0700000000</p>
         <p>Email:ig.artEvent2021@gmail.com</p>
