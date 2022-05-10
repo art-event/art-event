@@ -177,7 +177,7 @@ background-color:wheat;
 }
 
 .section{
-    background-color:var(--bg-page);
+    background:url("pictures/background1.jpg");
 /* background-image:url(pictures/fundal) */
 text-align:center;
     /* min-height:100vh; */
